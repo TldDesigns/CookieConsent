@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "CookieConsent", "CookieConsent.njsproj", "{1550067E-F4A5-4157-8187-62E60CDF943D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1550067E-F4A5-4157-8187-62E60CDF943D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1550067E-F4A5-4157-8187-62E60CDF943D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1550067E-F4A5-4157-8187-62E60CDF943D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1550067E-F4A5-4157-8187-62E60CDF943D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
