@@ -1,10 +1,10 @@
 {
-  "name": "CookieConsent",
+  "name": "tlddesigns.cookieconsent",
   "version": "0.0.0",
   "description": "CookieConsent",
-  "main": "server.js",
+  "main": "cookieConsent.min.js",
   "author": {
-    "name": "david",
-    "email": ""
+    "name": "David Landy",
+    "email": "david@tlddesigns.co.uk"
   }
 }
