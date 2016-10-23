@@ -32,12 +32,17 @@
   </PropertyGroup>
   <ItemGroup>
     <Content Include="bower.json" />
+    <None Include="bundleconfig.json" />
     <Content Include="LICENSE" />
     <Content Include="package.json" />
     <Content Include="README.md" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="cookieConsent.js" />
+    <Compile Include="cookieConsent.min.js">
+      <SubType>Code</SubType>
+      <DependentUpon>cookieConsent.js</DependentUpon>
+    </Compile>
     <Compile Include="cookieConsent.min.js" />
   </ItemGroup>
   <!-- Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them. -->

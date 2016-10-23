@@ -19,8 +19,8 @@
     },
 
     createDiv: function () {
-        var             ccFooter = document.createElement('footer'),
-          ccContainer = document.createElement('div');
+        var ccFooter = document.createElement('footer'),
+            ccContainer = document.createElement('div');
         
         ccRow = document.createElement('div'),
         ccMsg = document.createElement('div'),
@@ -81,7 +81,7 @@
     showDiv: function () {
         var cookiesOk = this.getCookie();
 
-                if (!cookiesOk) {
+        if (!cookiesOk) {
             var cookieConsentBanner = document.getElementById('cookieConsent');
 
             if (this.supportsClasslist) {
@@ -92,6 +92,8 @@
                 cookieConsentBanner.className += ' in';
             }
         }
+        cookieConsent.cookieConsentBanner = document.getElementById('cookieConsent');;
+        cookieConsent.cookieConsentBtn = document.getElementById('cookieConsent-Btn');
     },
 
     onClick: function () {

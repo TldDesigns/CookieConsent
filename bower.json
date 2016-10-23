@@ -1,8 +1,8 @@
 {
   "name": "TLDDesigns.CookieConsent",
   "description": "Javascript library for adding an EU cookie consent message to page footers",
-  "main": "cookieConsent.min.js",
-  "version": "0.0.1",
+  "main": "cookieConsent.js",
+  "version": "0.0.2",
   "authors": [
     "TLD Designs"
   ],
